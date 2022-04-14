@@ -1,0 +1,42 @@
+.rdsz {
+    height: 50;
+    text-align: center;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+
+.trial{
+    color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #11429d 0%, #f22957 51%, #11429d 100%);
+    animation: placeholderShimmer 10s linear 0s infinite normal forwards;
+    width:20vh;
+    margin-right: 2%;
+}
+
+.cc {
+    display: block;
+}
+
+.nav li a {
+    color: black;
+}
+
+@keyframes placeholderShimmer{
+    0% {
+        background-position: 0px 0;
+      }
+      100% {
+        background-position: 100em 0;
+      }
+}
+
+@media screen and (max-width: 1000px) {
+    .trial
+    {
+        display: none;
+    }
+}

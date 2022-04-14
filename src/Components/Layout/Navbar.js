@@ -1,40 +1,44 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import './Navbar.css'
+
 
 const Navbar = () => {
-  return (
-    <div>
-    <nav className="navbar navbar-expand-lg navbar-light">
-      <div className="container">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
 
-        <div className="collapse navbar-collapse" >
-          <ul className="navbar-nav mr-auto">
+  const openWiingy = () => {
+    window.location = 'https://www.wiingy.com';
+  }
+
+  const openClassBooking = () => {
+    window.location = 'https://www.wiingy.com/booking/schedule_class';
+  }
+
+
+
+  return (
+    <div className="rdsz">
+    <nav className="navbar navbar-light">
+          <img src={"https://wiinblockextension.s3.ap-south-1.amazonaws.com/logo.png"} alt='logo' onClick={openWiingy} />
+        <div className="cc" >
+          <ul className="nav ">
             <li className="nav-item">
-              <NavLink className="nav-link" exact to="/">
-                ALL Quizzes 
-              </NavLink>
+              <a className="nav-link" href="https://www.wiingy.com">Home</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" exact to="/leaderboard">
-                Leaderboard
-              </NavLink>
+            <a className="nav-link" href="https://www.wiingy.com">Testimonials</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link" href="https://www.wiingy.com">Courses</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link" href="https://blog.wiingy.com">Blog</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link" href="/"><p class="text-decoration-underline">All Quizzes</p></a>
             </li>
           </ul>
         </div>
-      </div>
+        <button className="trial" onClick={openClassBooking}>Book a Free Trial</button>
     </nav>
-    <hr />
     </div>
   );
 };

@@ -1,0 +1,13 @@
+.cc {
+    background-color: #EDF5FF;
+}
+
+.mbaft {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .mbaft {
+        display: block;
+    }
+}
