@@ -4,8 +4,11 @@ import "./Home.css";
 const Home = () => {
 
   const openGame =() => {
-    window.location= 'http://localhost:3000/game';
+    window.location= '/game';
   }
+
+
+  
 
 
   return (
