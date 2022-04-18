@@ -5,6 +5,17 @@ button {
     width:15vh;
     border: none;
     height:5vh;
+    cursor: pointer;
+}
+
+.db button{
+    left: 45%;
+    bottom: 50%;
+    position: relative;
+    width: 10%;
+    background-image: linear-gradient(to right, #11429d 0%, #f22957 51%, #11429d 100%);
+    animation: placeholderShimmer 10s linear 0s infinite normal forwards;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {

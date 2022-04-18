@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Home.css";
 
 const Home = () => {
@@ -7,7 +8,9 @@ const Home = () => {
     window.location= '/game';
   }
 
-
+  const openClassBooking = () => {
+    window.location = 'https://www.wiingy.com/booking/schedule_class';
+  }
   
 
 
@@ -124,6 +127,9 @@ const Home = () => {
             </div>
           </div>
           </div>
+        </div>
+        <div className="db">
+        <button onClick={openClassBooking}>Book A Free Trial</button>
         </div> 
     </div>
   );

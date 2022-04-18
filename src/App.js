@@ -10,11 +10,13 @@ function App() {
   return (
     <Router>
       <div className="cc">
+        <div className="navstick">
         <Navbar />
+        </div>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/leaderboard" component={Leaderboard} />
-          <Route exact path="/game" component={Game} />
+          <Route path="/leaderboard" component={Leaderboard} />
+          <Route path="/game" component={Game} />
         </Switch>
       </div>
     </Router>
