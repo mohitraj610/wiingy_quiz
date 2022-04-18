@@ -28,7 +28,9 @@ const Home = () => {
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
               <NavLink to="/game">
+                <button>
                 Play Now
+                </button>
               </NavLink>
               </div>
             </div>
@@ -46,7 +48,9 @@ const Home = () => {
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
               <NavLink to="/game">
+              <button>
                 Play Now
+                </button>
               </NavLink>
               </div>
             </div>
@@ -64,7 +68,9 @@ const Home = () => {
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
               <NavLink to="/game">
+                <button>
                 Play Now
+                </button>
               </NavLink>
               </div>
             </div>
@@ -82,7 +88,9 @@ const Home = () => {
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
               <NavLink to="/game">
+                <button>
                 Play Now
+                </button>
               </NavLink>
               </div>
             </div>
@@ -100,7 +108,9 @@ const Home = () => {
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
               <NavLink to="/game">
+                <button>
                 Play Now
+                </button>
               </NavLink>
               </div>
             </div>
@@ -118,7 +128,9 @@ const Home = () => {
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
               <NavLink to="/game">
+                <button>
                 Play Now
+                </button>
               </NavLink>
               </div>
             </div>
