@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className="rdsz">
-    <nav className="navbar">
+    <nav className="navbar navbar-expand-lg">
           <img src={"https://wiinblockextension.s3.ap-south-1.amazonaws.com/logo.png"} alt='logo' onClick={openWiingy} />
         <div className="cc" >
           <ul className="nav ">

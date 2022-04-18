@@ -11,7 +11,7 @@ button {
 .db button{
     left: 45%;
     bottom: 50%;
-    position: relative;
+    position: fixed;
     width: 10%;
     background-image: linear-gradient(to right, #11429d 0%, #f22957 51%, #11429d 100%);
     animation: placeholderShimmer 10s linear 0s infinite normal forwards;
@@ -19,10 +19,17 @@ button {
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+.df {
+    background-color: #EDF5FF;
+    height: 85vh;
+}
+
+@media screen and (max-width: 768px) {
     .db button
     {
         display: block;
-        width:20vh;
+        width:40%;
+        left:30%;
+        bottom: 2%;
     }
 }
