@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "./Home.css";
 
@@ -29,9 +30,9 @@ const Home = () => {
               <h6 class="card-title">Level: Intermediate</h6>
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
-              <button onClick={openGame}>
+              <NavLink to="/game">
                 Play Now
-              </button>
+              </NavLink>
               </div>
             </div>
             </div>
@@ -47,9 +48,9 @@ const Home = () => {
               <h6 class="card-title">Level: Intermediate</h6>
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
-              <button onClick={openGame}>
+              <NavLink to="/game">
                 Play Now
-              </button>
+              </NavLink>
               </div>
             </div>
             </div>
@@ -65,9 +66,9 @@ const Home = () => {
               <h6 class="card-title">Level: Intermediate</h6>
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
-              <button onClick={openGame}>
+              <NavLink to="/game">
                 Play Now
-              </button>
+              </NavLink>
               </div>
             </div>
             </div>
@@ -83,9 +84,9 @@ const Home = () => {
               <h6 class="card-title">Level: Intermediate</h6>
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
-              <button onClick={openGame}>
+              <NavLink to="/game">
                 Play Now
-              </button>
+              </NavLink>
               </div>
             </div>
             </div>
@@ -101,9 +102,9 @@ const Home = () => {
               <h6 class="card-title">Level: Intermediate</h6>
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
-              <button onClick={openGame}>
+              <NavLink to="/game">
                 Play Now
-              </button>
+              </NavLink>
               </div>
             </div>
             </div>
@@ -119,9 +120,9 @@ const Home = () => {
               <h6 class="card-title">Level: Intermediate</h6>
               <h6 class="card-title">Grade: 1-3</h6>
               <div className="text-center">
-              <button onClick={openGame}>
+              <NavLink to="/game">
                 Play Now
-              </button>
+              </NavLink>
               </div>
             </div>
             </div>

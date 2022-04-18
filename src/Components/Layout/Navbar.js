@@ -1,5 +1,6 @@
 import React from "react";
 import './Navbar.css'
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -33,7 +34,7 @@ const Navbar = () => {
             <a className="nav-link" href="https://blog.wiingy.com">Blog</a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="/"><p class="text-decoration-underline">All Quizzes</p></a>
+            <NavLink className="nav-link" to="/"><p class="text-decoration-underline">All Quizzes</p></NavLink>
             </li>
           </ul>
         </div>
