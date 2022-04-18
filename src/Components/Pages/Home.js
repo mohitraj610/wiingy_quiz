@@ -5,9 +5,6 @@ import "./Home.css";
 
 const Home = () => {
 
-  const openGame =() => {
-    window.location= '/game';
-  }
 
   const openClassBooking = () => {
     window.location = 'https://www.wiingy.com/booking/schedule_class';
