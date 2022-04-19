@@ -8,28 +8,62 @@ button {
     cursor: pointer;
 }
 
-.db button{
-    left: 45%;
-    bottom: 50%;
+.db{
+    bottom: 0%;
     position: fixed;
-    width: 10%;
+    width: 100%;
+    display: none;
+    height:10%;
+}
+.card.customized{
+    background-color: #EDF5FF;
+}
+
+.db button {
     background-image: linear-gradient(to right, #11429d 0%, #f22957 51%, #11429d 100%);
     animation: placeholderShimmer 10s linear 0s infinite normal forwards;
-    cursor: pointer;
-    display: none;
+    width:60%;
+    margin-left: 20%;
 }
+
 
 .df {
     background-color: #EDF5FF;
     height: 85vh;
 }
 
+
 @media screen and (max-width: 768px) {
-    .db button
+    .db
     {
         display: block;
-        width:40%;
-        left:30%;
-        bottom: 2%;
+    }
+
+    .df{
+        height: 315vh;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .db
+    {
+        display: block;
+    }
+
+    .df{
+        height: 300vh;
+    }
+}
+
+@media screen and (max-width: 400px),
+    screen and (max-height:700px) {
+    .db
+    {
+        display: block;
+    }
+
+    .df{
+        height: 290vh;
     }
 }

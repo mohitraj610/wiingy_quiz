@@ -81,8 +81,12 @@ const Home = () => {
           </div>
         </div>
         <div className="db">
-        <button onClick={openClassBooking}>Book A Free Trial</button>
-        </div> 
+        <div class="card customized">
+  <div class="card-body">
+    <button onClick={openClassBooking}>Book A Free Trial</button>
+  </div>
+</div>
+</div>
     </div>
   );
 };

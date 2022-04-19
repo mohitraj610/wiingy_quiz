@@ -11,19 +11,22 @@
     cursor: pointer;
 }
 
+
+
 .trial{
     color: #fff;
     border-radius: 20px;
     display: inline-block;
     background-image: linear-gradient(to right, #11429d 0%, #f22957 51%, #11429d 100%);
     animation: placeholderShimmer 10s linear 0s infinite normal forwards;
-    width:20vh;
+    width:25vh;
     margin-right: 2%;
 }
 
 .cc {
     display: block;
 }
+
 
 .nav li a {
     color: black;
@@ -55,3 +58,18 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 550px) {
+
+    .rdsz img {
+        width: 20%;
+    }
+    .nav li a {
+        font-size: small;
+    }
+
+    .cc{
+        padding-top: 3%;
+    }
+}
+

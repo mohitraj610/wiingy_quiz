@@ -17,24 +17,18 @@ const Navbar = () => {
 
   return (
     <div className="rdsz">
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar">
           <img src={"https://wiinblockextension.s3.ap-south-1.amazonaws.com/logo.png"} alt='logo' onClick={openWiingy} />
         <div className="cc" >
           <ul className="nav ">
             <li className="nav-item">
-              <a className="nav-link" href="https://www.wiingy.com">Home</a>
-            </li>
-            <li className="nav-item">
-            <a className="nav-link" href="https://www.wiingy.com">Testimonials</a>
-            </li>
-            <li className="nav-item">
             <a className="nav-link" href="https://www.wiingy.com">Courses</a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="https://blog.wiingy.com">Blog</a>
+            <a className="nav-link" href="http://wiinblock.wiingy.com/">Wiinblock</a>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/"><p class="text-decoration-underline">All Quizzes</p></NavLink>
+            <NavLink className="nav-link" to="/"><p class="text-decoration-underline">Quizzes</p></NavLink>
             </li>
           </ul>
         </div>
