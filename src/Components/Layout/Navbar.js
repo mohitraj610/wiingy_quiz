@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="navbar">
           <img src={"https://wiinblockextension.s3.ap-south-1.amazonaws.com/logo.png"} alt='logo' onClick={openWiingy} />
         <div className="cc" >
-          <ul className="nav ">
+          <ul className="nav ml-auto">
             <li className="nav-item">
             <a className="nav-link" href="https://www.wiingy.com">Courses</a>
             </li>
