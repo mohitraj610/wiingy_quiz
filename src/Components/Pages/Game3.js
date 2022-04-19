@@ -1,4 +1,5 @@
 import React from "react";
+import './Game3.css'
 
 const Game = () => {
   return (

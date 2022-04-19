@@ -24,7 +24,7 @@ const Home = () => {
               <div class="card-body">
               <h6 class="card-title">Basics of Coding</h6>
               <p class="card-text">
-              Test your knowledge of coding with this fun and interactive quiz
+              Test your knowledge of coding with this fun and interactive quiz                                
               </p>
               <h6 class="card-title">Level: Beginner</h6>
               <h6 class="card-title">Grade: 1-3</h6>
@@ -64,7 +64,7 @@ const Home = () => {
               <div class="card-body">
               <h6 class="card-title">Basics of Arduino</h6>
               <p class="card-text">
-              How much do you know about Arduino? Take this test to find out
+              How much do you know about Arduino? Play quiz to find out
               </p>
               <h6 class="card-title">Level: Intermediate</h6>
               <h6 class="card-title">Grade: 7-9</h6>
