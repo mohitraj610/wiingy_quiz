@@ -7,19 +7,23 @@ import Game1 from "./Components/Pages/Game1";
 import Game2 from "./Components/Pages/Game2";
 import Game3 from "./Components/Pages/Game3";
 import { Route, Routes } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
-      <div className="cc">
-        <Navbar />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/leaderboard" exact element={<Leaderboard />} />
-          <Route path="/game1" exact element={<Game1 />} />
-          <Route path="/game2" exact element={<Game2 />} />
-          <Route path="/game3" exact element={<Game3 />} />
-        </Routes>
-      </div>
+    <div className="cc">
+      <Helmet>
+        <title>Wiingy Quiz</title>
+      </Helmet>
+      <Navbar />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/leaderboard" exact element={<Leaderboard />} />
+        <Route path="/game1" exact element={<Game1 />} />
+        <Route path="/game2" exact element={<Game2 />} />
+        <Route path="/game3" exact element={<Game3 />} />
+      </Routes>
+    </div>
   );
 }
 
