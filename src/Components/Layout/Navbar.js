@@ -30,9 +30,11 @@ const Navbar = () => {
             <li className="nav-item">
             <NavLink className="nav-link" to="/"><p class="text-decoration-underline">Quizzes</p></NavLink>
             </li>
+            <li className="nav-item">
+            <button className="trial" onClick={openClassBooking}>Book a Free Trial</button>
+            </li>
           </ul>
         </div>
-        <button className="trial" onClick={openClassBooking}>Book a Free Trial</button>
     </nav>
     </div>
   );
