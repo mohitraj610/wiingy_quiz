@@ -83,7 +83,7 @@ const Home = () => {
         <h1 className="spacing">Enjoy</h1>
         <div className="db">
         <div class="card customized">
-  <div class="card-body">
+  <div class="card-body testing">
     <button onClick={openClassBooking}>Book A Free Trial</button>
   </div>
 </div>
