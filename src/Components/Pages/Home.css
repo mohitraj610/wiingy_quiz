@@ -14,22 +14,24 @@ button {
     width: 100%;
     display: none;
     height:10%;
+    margin-top: 10%;
 }
 .card.customized{
     background-color: #EDF5FF;
 }
 
+.card-body {
+    align-self: center;
+}
+
 .db button {
     background-image: linear-gradient(to right, #11429d 0%, #f22957 51%, #11429d 100%);
     animation: placeholderShimmer 10s linear 0s infinite normal forwards;
-    width:60%;
-    margin-left: 20%;
+    width:25vh;
 }
 
-
-.df {
-    background-color: #EDF5FF;
-    height: 85vh;
+.spacing {
+    display: none;
 }
 
 
@@ -39,31 +41,10 @@ button {
         display: block;
     }
 
-    .df{
-        height: 315vh;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-    .db
-    {
+    .spacing {
         display: block;
-    }
-
-    .df{
-        height: 230vh;
-    }
-}
-
-@media screen and (max-width: 400px),
-    screen and (max-height:700px) {
-    .db
-    {
-        display: block;
-    }
-
-    .df{
-        height: 290vh;
+        align-items: center;
+        align-self: center;
+        align-content: center;
     }
 }

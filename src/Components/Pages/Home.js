@@ -58,7 +58,7 @@ const Home = () => {
             </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 testing">
             <div className="card shadow-lg mb-3">
               <img src={arduino} alt="" />
               <div class="card-body">
@@ -80,6 +80,7 @@ const Home = () => {
           </div>
           </div>
         </div>
+        <h1 className="spacing">Enjoy</h1>
         <div className="db">
         <div class="card customized">
   <div class="card-body">
